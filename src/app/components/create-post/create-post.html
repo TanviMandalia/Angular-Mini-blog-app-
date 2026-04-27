@@ -1,0 +1,21 @@
+
+
+  <div class="form-container">
+
+  <h2>{{ isEdit ? 'Edit Post' : 'Create Post' }}</h2>
+
+  <input [(ngModel)]="title" placeholder="Title" />
+
+  <input [(ngModel)]="author" placeholder="Author Name" />
+
+  <input [(ngModel)]="date" placeholder="Date (e.g. Sep 25, 2024)" />
+
+  <input [(ngModel)]="readTime" placeholder="Read Time (e.g. 1 min read)" />
+
+  <textarea [(ngModel)]="body" placeholder="Content"></textarea>
+
+  <button (click)="savePost()">
+    {{ isEdit ? 'Update' : 'Publish' }}
+  </button>
+
+</div>

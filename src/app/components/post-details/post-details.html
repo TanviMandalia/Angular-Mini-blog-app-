@@ -1,0 +1,28 @@
+<div class="detail-container">
+
+  <!-- Top Image -->
+  <div class="image-section">
+    <img src="/images/nature1.jpeg" />
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+
+    <span class="tag">Blog</span>
+
+    <h1>{{ post?.title }}</h1>
+
+<p class="meta">
+  {{ post?.date }} • {{ post?.readTime }}
+</p>
+
+<div class="author">
+  <span>{{ post?.author }}</span>
+</div>
+
+<p>{{ post?.body }}</p>
+
+    <button (click)="goHome()">← Back</button>
+
+  </div>
+</div>
