@@ -16,7 +16,7 @@ posts: any[] = [];
   constructor(private postService: Post) {
   this.posts = this.postService.getPosts();
 
-  console.log(this.posts); // 👈 check data
+  console.log(this.posts);
 }
 
   delete(id: number) {
