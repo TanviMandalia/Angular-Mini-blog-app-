@@ -1,10 +1,6 @@
-* {
-  box-sizing: border-box;
-}
-
 img {
   max-width: 100%;
-  display: block;
+  display: inline;
 }
 
 .container {
@@ -29,6 +25,6 @@ app-root {
 
 @media (max-width: 600px) {
   .container {
-    width: 95%;
+    width: 100%;
   }
 }
