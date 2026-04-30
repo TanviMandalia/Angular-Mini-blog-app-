@@ -55,7 +55,7 @@ savePost() {
     readTime: this.readTime
   };
 
-  console.log('Saving:', postData); // 👈 ADD THIS
+  console.log('Saving:', postData); 
 
   if (this.isEdit) {
     this.postService.updatePost(postData);
